@@ -126,16 +126,12 @@ module.exports = {
     // passando nova base
     getAll: function(base,callback) {
 
+      // limpando 
+      this.currenciesMap = [];
+      this.getExchangeRates();     
 
-      this.getExchangeRates();
-      
-
-      this.executeCallback = function() { 
-
-          
-          this.converteBase(base);
-
-        
+      this.executeCallback = function() {         
+          this.converteBase(base);        
           callback(this.currenciesMap);
       };
 

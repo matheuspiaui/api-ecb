@@ -4,7 +4,7 @@
   "description": "Taxas de cambio do Banco Central Europeu",
   "main": "currencyRates.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node examples/test.js"
   },
   "repository": {
     "type": "git",

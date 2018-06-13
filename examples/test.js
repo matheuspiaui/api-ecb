@@ -42,3 +42,4 @@ var currencyRates = require('../currencyRates.js');
 currencyRates.getAll("USD",function(data){
   console.log(JSON.stringify(data));
 });
+
