@@ -1,0 +1,33 @@
+{
+  "name": "ecb-api",
+  "version": "0.0.7",
+  "description": "Taxas de cambio do Banco Central Europeu",
+  "main": "currencyRates.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheuspiaui/api-ecb.git"
+  },
+  "keywords": [
+    "ecb",
+    "exchange-rates",
+    "currency",
+    "europe"
+  ],
+  "author": {
+    "name": "Matheus Piaui",
+    "email": "matheus.piaui.iami@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuspiaui/api-ecb/issues"
+  },
+  "homepage": "https://github.com/matheuspiaui/api-ecb",
+  "dependencies": {
+    "request": "^2.40.0",
+    "underscore": "^1.7.0",
+    "xml2js": "^0.4.4"
+  }
+}
