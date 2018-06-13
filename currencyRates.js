@@ -113,7 +113,7 @@ module.exports = {
 
       let _base = this.getRate(base);
       
-      console.log(_base);
+      // console.log(_base);
 
 
       for (let i = 0; i < this.currenciesMap.length; i++) {        

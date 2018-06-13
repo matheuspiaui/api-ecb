@@ -1,6 +1,6 @@
 {
   "name": "ecb-api",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Taxas de cambio do Banco Central Europeu",
   "main": "currencyRates.js",
   "scripts": {
